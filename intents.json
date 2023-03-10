@@ -1,0 +1,48 @@
+{"intents": [
+   {"tag": "salutation",
+    "patterns": ["Salut", "Comment vas-tu?", "Y a-t-il quelqu'un?", "Bonjour"],
+    "responses": ["Bonjour, merci de votre visite", "Bonjour! Comment puis-je vous aider aujourd'hui?", "Bonjour! Comment puis-je rendre votre expérience ici plus agréable? "],
+    "context_set": ""
+   },
+   {"tag": "aurevoir",
+    "patterns": ["Au revoir", "A plus tard"],
+    "responses": ["A plus tard, merci de votre visite", "Bonne journée", "Bye! Revenez bientôt."]
+   },
+   {"tag": "merci",
+    "patterns": ["Merci","C'est utile"],
+    "responses": ["Heureux de vous aider!", "À tout moment!", "C'est avec plaisir"]
+   },
+   {"tag": "inscription",
+    "patterns": ["Je veux m'inscrire à un cours","Comment puis-je m'inscrire à un cours ?","Je n'arrive pas à m'inscrire à un cours"],
+    "responses": ["Pour vous inscrire à un cours, veuillez vous connecter à votre compte étudiant sur notre site web et suivre les instructions d'inscription en ligne. Si vous rencontrez des difficultés, n'hésitez pas à me le faire savoir et je serai là pour vous aider."]
+   },
+   {"tag": "InscriptionAdministrative",
+    "patterns": ["Comment puis-je m'inscrire administrativement ?","Pouvez-vous m'aider à m'inscrire administrativement ?","Quelle est la procédure pour l'inscription administrative ?" ],
+    "responses": ["Si vous cherchez des informations sur l'inscription administrative pour votre programme d'études, je peux vous aider à comprendre la procédure et les documents nécessaires. Sinon, pour vous inscrire administrativement, vous pouvez vous connecter à votre compte étudiant sur notre site web et suivre les instructions. Si vous préférez vous inscrire en personne, rendez-vous au bureau des inscriptions."]
+   },
+   {"tag": "EmploiTemps",
+    "patterns": ["Quel est mon emploi du temps ?","Quand est mon prochain cours ?","Je ne sais pas quand est ma prochaine classe"],
+    "responses": ["Je peux vous aider à accéder à votre emploi du temps et à voir quand aura lieu votre prochain cours en fonction de votre programme d'études. Vous pouvez également recevoir des rappels pour vos prochaines classes par le biais de notre plateforme de communication, ou en utilisant notre application mobile. Si vous avez des questions spécifiques sur votre emploi du temps, n'hésitez pas à me demander de l'aide."]
+   },
+   {"tag": "Notes",
+    "patterns": ["Où puis-je trouver mes notes ?","Comment puis-je voir mes résultats ?","Quand est-ce que je recevrai mes notes ?"],
+    "responses": ["Vous pouvez consulter vos notes sur le portail des étudiants de notre site web. Si vous avez des questions sur vos résultats, n'hésitez pas à me demander de l'aide pour les comprendre."]
+   },
+   {"tag": "CalendrierScolaire",
+    "patterns": ["Quand sont les vacances scolaires ?","Est-ce que les classes sont annulées pour les vacances ?","Quand est-ce que le semestre commence ?"],
+    "responses": ["Je peux vous fournir des informations sur le calendrier scolaire, y compris les dates des vacances, les jours de congé et les dates de début et de fin de semestre. Si vous avez des questions spécifiques sur les dates importantes, n'hésitez pas à me demander."]
+   },
+   {"tag": "DemandeDiplome",
+    "patterns": ["Comment puis-je demander un diplôme ?","Quels sont les documents nécessaires pour demander un diplôme ?","Quand est-ce que je recevrai mon diplôme ?"],
+    "responses": ["Je peux vous aider à comprendre la procédure pour demander un diplôme et les documents nécessaires pour faire une demande. Si vous avez déjà rempli les conditions pour obtenir un diplôme, vous pouvez suivre la procédure de demande en ligne sur notre site web. Si vous avez des questions spécifiques sur votre demande, n'hésitez pas à me demander."]
+   },
+   {"tag": "ProblemeInformatique",
+   "patterns": ["J'ai un problème avec mon compte étudiant","Je ne peux pas me connecter à mon compte étudiant","Comment puis-je récupérer mon mot de passe ?"],
+    "responses": ["Je suis désolé d'entendre que vous avez des problèmes avec votre compte étudiant. Je peux vous aider à récupérer votre mot de passe, à débloquer votre compte ou à résoudre d'autres problèmes liés à votre compte étudiant. Pour commencer, pouvez-vous me donner plus d'informations sur le problème que vous rencontrez ?"]
+   },
+   {"tag": "Orientation",
+   "patterns": ["Comment puis-je obtenir des conseils d'orientation ?","Je ne suis pas sûr de mon choix de carrière","Je veux en savoir plus sur les perspectives d'emploi pour mon programme d'études"],
+    "responses": ["Si vous cherchez des conseils d'orientation pour vous aider à choisir une carrière ou un programme d'études, je peux vous aider à comprendre les différentes options disponibles, les perspectives d'emploi pour chaque domaine et les compétences requises pour réussir. Si vous avez des questions spécifiques sur votre programme d'études, n'hésitez pas à me demander de l'aide."]
+}
+]
+}
